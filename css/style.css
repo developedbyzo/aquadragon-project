@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#spacer {
+  border-bottom: dotted 3px #fff;
+  width: 100%;
+}
+
+#button-moved {
+  text-align: right;
+  width: 100%;
+  padding: 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: 1px transparent solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 500ms ease;
+}
+
+button:hover {
+  background: royalblue;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+  -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/blue_dream_by_pelzwanze.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.btn:hover {
+  background: #f4f4f4;
+}
+
+#table-content {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#table-content a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#table-content a:hover {
+  border-bottom: dotted 1px royalblue;
+  color: royalblue;
+}
+
+#table-content-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 45vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#table-content-text h2 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#table-content-image {
+  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#about {
+  padding: 1.5rem;
+  text-align: center;
+  background: rgb(61, 67, 139);
+  color: #fff;
+}
+
+#about a {
+  text-decoration: none;
+  color: rgb(218, 212, 212);
+}
+
+#about a:hover {
+  border-bottom: dotted 1px rgb(218, 212, 212);
+  color: rgb(218, 212, 212);
+}
+
+#about-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: auto /*60vh*/;/* Expand content area as needed. */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#about-text h3 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#about-image {
+  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#what-are-they {
+  padding: 1.5rem;
+  text-align: center;
+  background: rgb(148, 62, 13);
+  color: #fff;
+}
+
+#what-are-they a {
+  text-decoration: none;
+  color: rgb(218, 212, 212);
+}
+
+#what-are-they a:hover {
+  border-bottom: dotted 1px rgb(218, 212, 212);
+  color: rgb(218, 212, 212);
+}
+
+#what-are-they-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: auto /*60vh*/;/* Expand content area as needed. */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#what-are-they-text h3 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#what-are-they-image {
+  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#how-to-care {
+  padding: 1.5rem;
+  text-align: center;
+  background: rgb(102, 115, 2);
+  color: #fff;
+}
+
+#how-to-care a {
+  text-decoration: none;
+  color: rgb(218, 212, 212);
+}
+
+#how-to-care a:hover {
+  border-bottom: dotted 1px rgb(218, 212, 212);
+  color: rgb(218, 212, 212);
+}
+
+#how-to-care-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: auto /*60vh*/;/* Expand content area as needed. */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#how-to-care-text h3 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#how-to-care-image {
+  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#contact {
+  padding: 1.5rem;
+  text-align: center;
+  background: rgb(25, 97, 79);
+  color: #fff;
+}
+
+#contact a {
+  text-decoration: none;
+  color: rgb(218, 212, 212);
+}
+
+#contact a:hover {
+  border-bottom: dotted 1px rgb(218, 212, 212);
+  color: rgb(218, 212, 212);
+}
+
+#contact-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: auto /*60vh*/;/* Expand content area as needed. */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#contact-text h3 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#contact-image {
+  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  margin: auto;
+  color: #333;
+}
