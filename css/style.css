@@ -11,6 +11,10 @@ body {
   height: auto;
 }
 
+p,ul,li,h5 {
+  text-align: left;
+}
+
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
@@ -32,6 +36,11 @@ img {
 
 #spacer {
   border-bottom: dotted 3px #fff;
+  width: 100%;
+}
+
+#mini-spacer {
+  border-bottom: dotted 1px #fff;
   width: 100%;
 }
 
@@ -82,7 +91,7 @@ main {
 }
 
 #landing-image {
-  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/blue_dream_by_pelzwanze.jpg);
+  background-image: url("../img/blue_dream_by_pelzwanze.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -143,7 +152,7 @@ main {
 }
 
 #table-content-image {
-  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background: url("../img/fire_sakura__by_pelzwanze.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,7 +198,7 @@ main {
 }
 
 #about-image {
-  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background: url("../img/blue_shrimp.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +227,7 @@ main {
 #what-are-they-text {
   display: flex;
   flex: 0 1 40vw;
-  height: auto /*60vh*/;/* Expand content area as needed. */
+  height: /*auto*/ 40vh;/*Expand content area as needed.*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -235,7 +244,7 @@ main {
 }
 
 #what-are-they-image {
-  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background: url("../img/orange_shrimp.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -281,7 +290,7 @@ main {
 }
 
 #how-to-care-image {
-  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+  background: url("../img/red_shrimp.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -290,24 +299,24 @@ main {
   margin: 0;
 }
 
-#contact {
+#breeding {
   padding: 1.5rem;
   text-align: center;
   background: rgb(25, 97, 79);
   color: #fff;
 }
 
-#contact a {
+#breeding a {
   text-decoration: none;
   color: rgb(218, 212, 212);
 }
 
-#contact a:hover {
+#breeding a:hover {
   border-bottom: dotted 1px rgb(218, 212, 212);
   color: rgb(218, 212, 212);
 }
 
-#contact-text {
+#breeding-text {
   display: flex;
   flex: 0 1 40vw;
   height: auto /*60vh*/;/* Expand content area as needed. */
@@ -318,7 +327,7 @@ main {
   padding-left: 1em;
 }
 
-#contact-text h3 {
+#breeding-text h3 {
   border-left: dotted 1px #fff;
   border-right: dotted 1px #fff;
   display: inline-block;
@@ -326,8 +335,8 @@ main {
   padding-right: 1rem;
 }
 
-#contact-image {
-  background: url(file:///C:/Users/50667/Desktop/personal/aquadragon/img/fire_sakura__by_pelzwanze.jpg);
+#breeding-image {
+  background: url("../img/blue_dream_berried_by_pelzwanze.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
